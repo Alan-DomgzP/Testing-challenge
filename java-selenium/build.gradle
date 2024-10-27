@@ -1,0 +1,35 @@
+
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.11.0'
+    implementation 'io.github.bonigarcia:webdrivermanager:5.9.2'
+    implementation 'io.qameta.allure:allure-cucumber7-jvm:2.29.0'
+    testImplementation 'org.testng:testng:7.10.2'
+    implementation 'io.cucumber:cucumber-java:7.18.1'
+    testImplementation 'io.cucumber:cucumber-junit:7.18.1'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.25.0'
+
+}
+
+// Apply a specific Java toolchain to ease working on different environments.
+// java {
+//     toolchain {
+//         languageVersion = JavaLanguageVersion.of(17)
+//     }
+// }
+
+application {
+    mainClass = 'stori.qa.automation.challenge.App'
+}
+
+tasks.named('test') {
+    systemProperty "cucumber.options", System.getProperty("cucumber.options")
+    systemProperties System.getProperties();
+}
