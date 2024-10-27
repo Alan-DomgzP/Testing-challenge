@@ -10,6 +10,7 @@ This project is based on the framework provided by [_Patricio Miner_](https://ww
 
 
 The test cases used for this project come from a technical challenge
+
 ## Cucumber reports
 
 - Create `cucumber.properties` file at the resources folder
@@ -52,3 +53,13 @@ The test cases used for this project come from a technical challenge
 <br>
 
 
+# Cypress-Challenge
+
+API Testing using cypress testing framework
+
+## How to use
+
+1. Change directory to cypress folder
+2. On a terminal execute `npm run cy:open`
+3. Proceed to select E2E Testing after cypress has runned
+4. Select the file `api_testing.cy.js` under e2e folder
