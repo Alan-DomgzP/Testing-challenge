@@ -1,6 +1,17 @@
 # Selenium-Challenge
 
+The test cases implemented comes from a technical challenge
+
+
+This project is divided into two parts:
+
+- Web Automation
+
 This project is based on the framework provided by [_Patricio Miner_](https://www.freerangetesters.com/) from his [selenium-java](https://www.udemy.com/course/selenium-con-java-y-cucumber-el-curso-definitivo/?couponCode=OF83024E) course.
+
+- API Testing
+This project is a basic implementation for API testing with Cypress
+
 
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -9,7 +20,6 @@ This project is based on the framework provided by [_Patricio Miner_](https://ww
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white)
 
 
-The test cases used for this project come from a technical challenge
 
 ## Cucumber reports
 
