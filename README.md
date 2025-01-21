@@ -6,7 +6,8 @@ This project is divided into two parts:
 
 This project is based on the framework provided by [_Patricio Miner_](https://www.freerangetesters.com/) from his [selenium-java](https://www.udemy.com/course/selenium-con-java-y-cucumber-el-curso-definitivo/?couponCode=OF83024E) course.
 
-- [API Testing](#cypress-challenge)
+- [API Testing](#cypress)
+
 This project is a basic implementation for API testing with Cypress
 
 
